@@ -3,13 +3,8 @@
   "version": "0.5",
   "description": "Test app to check cxx-qt bindings",
   "license": "MIT OR Apache-2.0",
-  "features": {
-    "qt5": {
-      "description": "Build with Qt5",
-      "dependencies": [
-        "qt5-base",
-        "qt5-quickcontrols2"
-      ]
-    }
-  }
+  "dependencies": [
+      "qt5-base",
+      "qt5-quickcontrols2"
+  ]
 }
