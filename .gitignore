@@ -71,7 +71,7 @@ CMakeLists.txt.user*
 # --------
 *.dll
 *.exe
-rust/
+rust/target*
 build/
 compile_commands.json
 .cache/
