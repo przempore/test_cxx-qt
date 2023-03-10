@@ -23,7 +23,7 @@ jobs:
         submodules: true
 
     - name: Install system dependencies
-      run: sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev
+      run: sudo apt-get install libgl1-mesa-dev libglu1-mesa-dev libkrb5-dev
 
     - name: Run vcpkg
       uses: lukka/run-vcpkg@v10
